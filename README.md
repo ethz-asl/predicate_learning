@@ -16,7 +16,29 @@ source venv/bin/activate
 pip install -r requirements.txt
 ``` 
 
+## Obtaining dataset
+
+This step is optional. Instead of using our data, you can generate your own as described below.
+
+To get you started quickly, we provide the dataset used in our paper. This includes both predicates `on_clutter` and `inside_drawer`. For each predicate, we provide:
+
+- Demonstrations (physics simulator states)
+- Extracted bounding box features
+- Point clouds of single objects that can be used to train point cloud auto-encoders
+- Point clouds of all objects in the demonstration scenes for encoding the scene
+- Encoded point clouds for all demonstration scenes, for a range of encoder models
+
+Furthermore, for each predicate comes with a training set of 20'000 samples, and a test set of 2'000 samples.
+
+The data can be downloaded from the following link: *(will be added once available)*
+
 ## Usage instructions
+
+There are two options for where to save data and models.
+
+First, they can be stored in a directory within the repo. For this option, use the `--paths local` flag, or set `PATHS_SELECTOR = "local"` for scripts that do not parse arguments. Save the data you downloaded in the previous step into `training/predicates/data` (s.t. there is `training/predicates/data/on_clutter`, etc.) relative to this readme file.
+
+Second, they can be stored in a data directory in your home directory. In that case, choose `--paths home` flag, or set `PATHS_SELECTOR = "home"`, and extract the data into `~/Data/highlevel_planning/predicates/data`. The paths can also be adjusted in `src/highlevel_planning_py/tools_pl/path.py` if desired.
 
 ### Prepare data
 
