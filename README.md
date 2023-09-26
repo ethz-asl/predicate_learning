@@ -1,6 +1,6 @@
 # Predicate Learning
 
-This repository contains the code associated with our paper "On Learning Scene-aware Generative State Abstractions\\for Task-level Mobile Manipulation Planning" (link will be added as soon as it is available online).
+This repository contains the code associated with our paper *"On Learning Scene-aware Generative State Abstractions for Task-level Mobile Manipulation Planning"* (link will be added as soon as it is available online).
 
 ![](data/figures/title_figure_v0.png)
 
