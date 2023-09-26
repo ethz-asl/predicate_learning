@@ -1,0 +1,16 @@
+venv
+*.pyc
+*.pkl
+*.bullet
+highlevel_planning/data/models/parsed_xacros
+highlevel_planning/notebooks/data
+highlevel_planning/graphgym/results
+highlevel_planning/graphgym/configs/graph_classification_grid_first_grid
+*.egg-info
+build/
+dist/
+cmake-build-debug/
+.ipynb_checkpoints
+
+.idea/
+training/
