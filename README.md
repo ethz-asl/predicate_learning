@@ -1,10 +1,12 @@
 # Predicate Learning
 
+This repository contains the code associated with our paper "On Learning Scene-aware Generative State Abstractions\\for Task-level Mobile Manipulation Planning" (link will be added as soon as it is available online).
+
 ![](data/figures/title_figure_v0.png)
 
 ## Installation
 
-Install `torch`, as per the instructions on the [PyTorch website](https://pytorch.org/get-started/locally/) as well as `torch_geometric` via the [PyTorch Geometric website](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html).
+Install `torch`, as per the instructions on the [PyTorch website](https://pytorch.org/get-started/locally/) as well as `torch_geometric` via the [PyTorch Geometric website](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) (use pip for this).
 
 Create a virtual environment and install the remaining dependencies:
 
