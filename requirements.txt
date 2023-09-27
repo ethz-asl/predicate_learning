@@ -1,6 +1,6 @@
 pybullet-svl==3.1.6.4
 numpy==1.23.5
-scipy==1.8.0
+scipy==1.10.1
 urdf-parser-py==0.0.3
 pandas==1.4.2
 ipython

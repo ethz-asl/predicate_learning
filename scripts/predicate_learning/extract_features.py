@@ -16,8 +16,6 @@
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-import os
-import igibson
 from highlevel_planning_py.predicate_learning.predicate_learning_server import SimServer
 from highlevel_planning_py.tools_pl import util
 from highlevel_planning_py.tools_pl.logger_stdout import LoggerStdout
