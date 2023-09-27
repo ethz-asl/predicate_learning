@@ -9,8 +9,10 @@ authors:
   orcid: "https://orcid.org/0000-0001-7828-0741"
 - family-names: "Ott"
   given-names: "Lionel"
+  orcid: "https://orcid.org/0000-0001-6554-0575"
 - family-names: "Siegwart"
   given-names: "Roland"
+  orcid: "https://orcid.org/0000-0002-2760-7983"
 title: "On Learning Scene-aware Generative State Abstractions for Task-level Mobile Manipulation Planning - Code Release"
 version: 1.0.0
 // doi: 10.5281/zenodo.1234
@@ -27,8 +29,10 @@ preferred-citation:
     orcid: "https://orcid.org/0000-0001-7828-0741"
   - family-names: "Ott"
     given-names: "Lionel"
+    orcid: "https://orcid.org/0000-0001-6554-0575"
   - family-names: "Siegwart"
     given-names: "Roland"
+    orcid: "https://orcid.org/0000-0002-2760-7983"
   // doi: "10.0000/00000"
   // journal: "Journal Title"
   month: 9
