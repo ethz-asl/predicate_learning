@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Förster"
+  given-names: "Julian"
+  orcid: "https://orcid.org/0000-0002-1163-1065"
+- family-names: "Chung"
+  given-names: "Jen Jen"
+  orcid: "https://orcid.org/0000-0001-7828-0741"
+- family-names: "Ott"
+  given-names: "Lionel"
+- family-names: "Siegwart"
+  given-names: "Roland"
+title: "On Learning Scene-aware Generative State Abstractions for Task-level Mobile Manipulation Planning - Code Release"
+version: 1.0.0
+// doi: 10.5281/zenodo.1234
+date-released: 2023-09-27
+url: "https://github.com/ethz-asl/predicate_learning"
+preferred-citation:
+  type: unpublished
+  authors:
+  - family-names: "Förster"
+    given-names: "Julian"
+    orcid: "https://orcid.org/0000-0002-1163-1065"
+  - family-names: "Chung"
+    given-names: "Jen Jen"
+    orcid: "https://orcid.org/0000-0001-7828-0741"
+  - family-names: "Ott"
+    given-names: "Lionel"
+  - family-names: "Siegwart"
+    given-names: "Roland"
+  // doi: "10.0000/00000"
+  // journal: "Journal Title"
+  month: 9
+  // start: 1 # First page number
+  // end: 10 # Last page number
+  title: "On Learning Scene-aware Generative State Abstractions for Task-level Mobile Manipulation Planning"
+  // issue: 1
+  // volume: 1
+  year: 2023
