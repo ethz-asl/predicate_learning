@@ -28,9 +28,9 @@ To get you started quickly, we provide the dataset used in our paper. This inclu
 - Point clouds of all objects in the demonstration scenes for encoding the scene
 - Encoded point clouds for all demonstration scenes, for a range of encoder models
 
-Furthermore, for each predicate comes with a training set of 20'000 samples, and a test set of 2'000 samples.
+Furthermore, each predicate comes with a training set of 20'000 samples, and a test set of 2'000 samples.
 
-The data can be downloaded from the following link: *(will be added once available)*
+The data can be downloaded from the following link: [http://hdl.handle.net/20.500.11850/634113](http://hdl.handle.net/20.500.11850/634113)
 
 ## Usage instructions
 
@@ -40,7 +40,9 @@ First, they can be stored in a directory within the repo. For this option, use t
 
 Second, they can be stored in a data directory in your home directory. In that case, choose `--paths home` flag, or set `PATHS_SELECTOR = "home"`, and extract the data into `~/Data/highlevel_planning/predicates/data`. The paths can also be adjusted in `src/highlevel_planning_py/tools_pl/path.py` if desired.
 
-### Prepare data
+### Generate data
+
+These steps are only needed if you want to generate data yourself. If you prefer to use the data we provide, refer to the [description above](#obtaining-dataset) for instructions on how to download, and skip this section.
 
 1. To generate demonstrations, use the script `scripts/data_generation/on_clutter_data_generation.py` for the `on_clutter` predicate, and `scripts/data_generation/inside_data_generation.py` for the `inside_drawer` predicate. Modify scripts to set options for data generation (# of samples, # of objects, object scales, etc.).
 2. Use `scripts/predicate_learning/extract_features.py` to extract features and/or point clouds. Modify script to select which features or point clouds to extract.
