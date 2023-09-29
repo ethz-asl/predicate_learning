@@ -2,6 +2,8 @@
 
 This repository contains the code associated with our paper *"On Learning Scene-aware Generative State Abstractions for Task-level Mobile Manipulation Planning"* (link will be added as soon as it is available online).
 
+If you are viewing a downloaded copy of this repository (ZIP archive), consider obtaining the latest version online from [https://github.com/ethz-asl/predicate_learning](https://github.com/ethz-asl/predicate_learning).
+
 ![](data/figures/title_figure_v0.png)
 
 ## Installation
